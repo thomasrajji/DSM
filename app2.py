@@ -9,6 +9,8 @@ df = pd.read_csv("C:/Users/thoma/OneDrive/Documents/DSAIS/Semester 2 courses\Dat
 
 app = dash.Dash(__name__)
 
+server = app.server
+
 app.layout = html.Div(style={'backgroundColor': '#1e2130', 'color': 'white', 'padding': '30px'}, children=[
     html.H1("Cluster Feature Visualization", style={'textAlign': 'center', 'color': 'white'}),
     
